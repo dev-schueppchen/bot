@@ -64,6 +64,10 @@ run:
 	$(GO) run -v \
 		$(CURDIR)/cmd/$(APPNAME) -c $(CONFIG)
 
+PHONY += fmt
+fmt:
+	$(GO) fmt ./...
+
 PHONY += cleanup
 cleanup:
 
@@ -73,6 +77,7 @@ help:
 	@echo "  #        - creates binary in ./bin"
 	@echo "  cleanup  - tidy up temporary stuff created by build or scripts"
 	@echo "  deps     - ensure dependencies are installed"
+	@echo "  fmt      - format go code with go fmt"
 	@echo "  lint     - run linters (golint)"
 	@echo "  run      - debug run app (go run) with test config"
 	@echo "  test     - run tests (go test)"

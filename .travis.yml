@@ -1,0 +1,17 @@
+sudo: false
+
+language: go
+
+go:
+  - 1.13.1
+
+install:
+  - go get -u golang.org/x/lint/golint
+  - go get -t -v ./...
+
+before_script:
+  - go mod verify
+  - golint.exe -set_exit_status ./...
+
+scipt:
+  - go build -v ./cmd/server/main.go

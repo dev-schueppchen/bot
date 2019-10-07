@@ -1,0 +1,12 @@
+.vscode/
+config/
+docs/
+
+.gitignore
+Makefile
+*.md
+
+# may needs to be removed if we somehow
+# need scripts for building the image 
+# obvisously
+scripts/

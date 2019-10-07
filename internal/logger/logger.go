@@ -8,7 +8,7 @@ const mainLoggerName = "main"
 
 var mainLogger = logging.MustGetLogger(mainLoggerName)
 
-// Set the log level of the logger
+// SetLogLevel sets the log level of the logger
 func SetLogLevel(lvl int) {
 	logging.SetLevel(logging.Level(lvl), mainLoggerName)
 }

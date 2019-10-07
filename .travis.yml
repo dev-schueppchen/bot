@@ -13,5 +13,5 @@ before_script:
   - go mod verify
   - golint -set_exit_status ./...
 
-scipt:
+script:
   - go build -v ./cmd/server/main.go

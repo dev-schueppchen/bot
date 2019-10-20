@@ -1,12 +1,12 @@
 # Uzume (アメオウズメ) &nbsp; <a href="https://travis-ci.org/dev-schueppchen/bot"><img src="https://img.shields.io/travis/dev-schueppchen/bot?style=for-the-badge" height="30"><a/> <img src="https://forthebadge.com/images/badges/made-with-go.svg" height="30"/> <img src="https://forthebadge.com/images/badges/designed-in-ms-paint.svg" height="30"/> 
 
-Uzume (アメオウズメ) is a project created and powered by the community of the [**zekro's Dev-Schuppen**](https://zekro.de/guild) Discord guild. We want to create a system which provides funny und useful features around the guild and the community - built by the community.
+Uzume (アメオウズメ) is a project created and powered by the community of the [**zekro's Dev-Schuppen**](https://zekro.de/guild) Discord guild. We want to create a system which provides funny und useful features involving the guild and the community - built by the community.
 
 > This bot will not be responsible for any administrative or moderative features on the guild. Thats the area of resposibility of [**shinpuru**](https://github.com/zekroTJA/shinpuru).
 
 ---
 
-## Implemenation
+## Implementation
 
 We decided to create the bot using the language [**Go**](https://golang.org) with the help of the Discord API wrapper [**disgord**](https://github.com/andersfylling/disgord).
 

@@ -8,19 +8,19 @@ Uzume (アメオウズメ) is a project created and powered by the community of 
 
 ## Implementation
 
-We decided to create the bot using the language [**Go**](https://golang.org) with the help of the Discord API wrapper [**disgord**](https://github.com/andersfylling/disgord).
+We decided to write the bot in [**Go**](https://golang.org) using the Discord API wrapper [**disgord**](https://github.com/andersfylling/disgord).
 
 ---
 
-## Contribution
+## Contributing
 
-As a part of the Dev-Schuppen guild, you are free to contribute to the project. Just **fork** the project and create a **pull request** to this repository with your changes.
+As a part of the Dev-Schuppen guild, feel free to contribute to the project. Just **fork** the project and create a **pull request** to this repository with your changes.
 
 <!-- When we have a Code of Conduct later, we should link to this here as well. -->
 
 Of course, you can also contribute by dropping some ideas or reporting problems / bugs as [**issue**](https://github.com/dev-schueppchen/bot/issues).
 
-If you are less experienced with Go, here are some useful resources to get into it:
+If you are less experienced in Go, here are some useful resources to get into it:
 - https://tour.golang.org/welcome/1
 - https://gobyexample.com/
 - https://golang.org/doc/effective_go.html
@@ -38,5 +38,10 @@ If you are less experienced with Go, here are some useful resources to get into 
 
 ---
 
+## License
+
 © 2019 dev-schueppchen  
-Covered by MIT Licence.
+
+This project is distributed under the terms of the MIT license.
+
+See [LICENSE](./LICENSE) for details.
